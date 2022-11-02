@@ -1,0 +1,163 @@
+curl "https://esportsawards.com/vote/assets/form.04be04da.js" --compressed &
+curl "https://esportsawards.com/vote/assets/form.13d8b03a.css" --compressed &
+curl "https://esportsawards.com/vote/assets/details.67da0ad1.js" --compressed &
+curl "https://esportsawards.com/vote/assets/Details.bcfeb84c.js" --compressed &
+curl "https://esportsawards.com/vote/assets/Details.1cc993a7.css" --compressed &
+curl "https://esportsawards.com/vote/assets/VoteRight.7ade4715.js" --compressed &
+curl "https://esportsawards.com/vote/assets/VoteRight.e8085557.css" --compressed &
+curl "https://esportsawards.com/vote/favicon.png" --compressed &
+curl "https://esportsawards.com/vote/assets/CeraGR-Regular.35bc77ee.woff2" ^
+  -H "authority: esportsawards.com" ^
+  -H "accept: */*" ^
+  -H "accept-language: vi-VN,vi;q=0.9,en-US;q=0.8,en;q=0.7" ^
+  -H "cookie: sizzle_gdpr_has_displayed=true; sizzle_gdpr_analytical=optin; sizzle_gdpr_functional=optin; _ga=GA1.2.2135704653.1666969122; _gid=GA1.2.1768874660.1666969122; _gat_UA-96165527-1=1; __lotr=https^%^3A^%^2F^%^2Fwww.google.com^%^2F; ppwp_wp_session=65d8efda44483a2d450c3caf59c8c25e^%^7C^%^7C1666970926^%^7C^%^7C1666970566" ^
+  -H "origin: https://esportsawards.com" ^
+  -H "referer: https://esportsawards.com/vote/assets/VoteRight.e8085557.css" ^
+  -H "sec-ch-ua: ^\^"Google Chrome^\^";v=^\^"107^\^", ^\^"Chromium^\^";v=^\^"107^\^", ^\^"Not=A?Brand^\^";v=^\^"24^\^"" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "sec-ch-ua-platform: ^\^"Windows^\^"" ^
+  -H "sec-fetch-dest: font" ^
+  -H "sec-fetch-mode: cors" ^
+  -H "sec-fetch-site: same-origin" ^
+  -H "user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" ^
+  --compressed &
+curl "https://esportsawards.com/vote/assets/vote-noms-left.b3318b59.jpg" ^
+  -H "authority: esportsawards.com" ^
+  -H "accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8" ^
+  -H "accept-language: vi-VN,vi;q=0.9,en-US;q=0.8,en;q=0.7" ^
+  -H "cookie: sizzle_gdpr_has_displayed=true; sizzle_gdpr_analytical=optin; sizzle_gdpr_functional=optin; _ga=GA1.2.2135704653.1666969122; _gid=GA1.2.1768874660.1666969122; _gat_UA-96165527-1=1; __lotr=https^%^3A^%^2F^%^2Fwww.google.com^%^2F; ppwp_wp_session=65d8efda44483a2d450c3caf59c8c25e^%^7C^%^7C1666970926^%^7C^%^7C1666970566" ^
+  -H "referer: https://esportsawards.com/vote/details" ^
+  -H "sec-ch-ua: ^\^"Google Chrome^\^";v=^\^"107^\^", ^\^"Chromium^\^";v=^\^"107^\^", ^\^"Not=A?Brand^\^";v=^\^"24^\^"" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "sec-ch-ua-platform: ^\^"Windows^\^"" ^
+  -H "sec-fetch-dest: image" ^
+  -H "sec-fetch-mode: no-cors" ^
+  -H "sec-fetch-site: same-origin" ^
+  -H "user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" ^
+  --compressed &
+curl "https://esportsawards.com/vote/assets/vote-noms-right.522aea86.jpg" ^
+  -H "authority: esportsawards.com" ^
+  -H "accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8" ^
+  -H "accept-language: vi-VN,vi;q=0.9,en-US;q=0.8,en;q=0.7" ^
+  -H "cookie: sizzle_gdpr_has_displayed=true; sizzle_gdpr_analytical=optin; sizzle_gdpr_functional=optin; _ga=GA1.2.2135704653.1666969122; _gid=GA1.2.1768874660.1666969122; _gat_UA-96165527-1=1; __lotr=https^%^3A^%^2F^%^2Fwww.google.com^%^2F; ppwp_wp_session=65d8efda44483a2d450c3caf59c8c25e^%^7C^%^7C1666970926^%^7C^%^7C1666970566" ^
+  -H "referer: https://esportsawards.com/vote/details" ^
+  -H "sec-ch-ua: ^\^"Google Chrome^\^";v=^\^"107^\^", ^\^"Chromium^\^";v=^\^"107^\^", ^\^"Not=A?Brand^\^";v=^\^"24^\^"" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "sec-ch-ua-platform: ^\^"Windows^\^"" ^
+  -H "sec-fetch-dest: image" ^
+  -H "sec-fetch-mode: no-cors" ^
+  -H "sec-fetch-site: same-origin" ^
+  -H "user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" ^
+  --compressed &
+curl "https://esportsawards.com/wp-json/vote/v1/vote/" ^
+  -H "authority: esportsawards.com" ^
+  -H "accept: application/json, text/plain, */*" ^
+  -H "accept-language: vi-VN,vi;q=0.9,en-US;q=0.8,en;q=0.7" ^
+  -H "authorization: Basic YWRtaW46ZHJpenpsZTE=" ^
+  -H "content-type: application/json" ^
+  -H "cookie: sizzle_gdpr_has_displayed=true; sizzle_gdpr_analytical=optin; sizzle_gdpr_functional=optin; _ga=GA1.2.2135704653.1666969122; _gid=GA1.2.1768874660.1666969122; __lotr=https^%^3A^%^2F^%^2Fwww.google.com^%^2F; ppwp_wp_session=65d8efda44483a2d450c3caf59c8c25e^%^7C^%^7C1666970926^%^7C^%^7C1666970566" ^
+  -H "origin: https://esportsawards.com" ^
+  -H "referer: https://esportsawards.com/vote/details" ^
+  -H "sec-ch-ua: ^\^"Google Chrome^\^";v=^\^"107^\^", ^\^"Chromium^\^";v=^\^"107^\^", ^\^"Not=A?Brand^\^";v=^\^"24^\^"" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H "sec-ch-ua-platform: ^\^"Windows^\^"" ^
+  -H "sec-fetch-dest: empty" ^
+  -H "sec-fetch-mode: cors" ^
+  -H "sec-fetch-site: same-origin" ^
+  -H "user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" ^
+  --data-raw "^{^\^"name^\^":^\^"acdadfasdf^\^",^\^"email^\^":^\^"afawefawef^@gmail.com^\^",^\^"marketing^\^":^\^"n^\^",^\^"thirdparty^\^":^\^"n^\^",^\^"votes^\^":^[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,1331,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,1519,null,1530,null,1331^]^}" ^
+  --compressed &
+curl "https://esportsawards.com/vote/assets/additional.9271190c.js" --compressed &
+curl "https://esportsawards.com/vote/assets/Additional.eda0453f.js" --compressed &
+curl "https://esportsawards.com/vote/assets/Additional.eb9c19ce.css" --compressed &
+curl "https://esportsawards.com/vote/favicon.png" --compressed
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    "code": 200,
+    "data": {
+        "errors": [],
+        "registrant": {
+            "registrant_id": 3444458,
+            "full_name": "acdadfasdf",
+            "email": "afawefawef@gmail.com",
+            "ip_address": "117.5.104.30",
+            "registered": "2022-10-28 14:59:59",
+            "marketing": "n",
+            "newsletter": "n",
+            "thirdparty": "n",
+            "gender": null,
+            "age": null,
+            "platform": null,
+            "country": "VN",
+            "region": "",
+            "city": "",
+            "postal_code": ""
+        },
+        "voted": [
+            {
+                "votes_id": 13880895,
+                "registrant_id": 3444458,
+                "category_id": 192,
+                "finalist_id": 1331,
+                "date_voted": "2022-10-28 14:59:59"
+            },
+            {
+                "votes_id": 13880896,
+                "registrant_id": 3444458,
+                "category_id": 214,
+                "finalist_id": 1519,
+                "date_voted": "2022-10-28 14:59:59"
+            },
+            {
+                "votes_id": 13880897,
+                "registrant_id": 3444458,
+                "category_id": 216,
+                "finalist_id": 1530,
+                "date_voted": "2022-10-28 14:59:59"
+            },
+            {
+                "votes_id": 13880898,
+                "registrant_id": 3444458,
+                "category_id": 218,
+                "finalist_id": 1331,
+                "date_voted": "2022-10-28 14:59:59"
+            }
+        ]
+    }
+}
+
+
+{
+    "code": 200,
+    "data": {
+        "errors": [],
+        "registrant": {
+            "registrant_id": "3444458",
+            "full_name": "acdadfasdf",
+            "email": "afawefawef@gmail.com",
+            "ip_address": "117.5.104.30",
+            "registered": "2022-10-28 14:59:59",
+            "marketing": "n",
+            "newsletter": "n",
+            "thirdparty": "n",
+            "gender": 1,
+            "age": 3,
+            "platform": "[2]",
+            "country": "VN",
+            "region": "",
+            "city": "",
+            "postal_code": ""
+        }
+    }
+}
